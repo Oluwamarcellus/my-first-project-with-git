@@ -37,7 +37,7 @@
   cursor: pointer;
 }
 .nav-logo .fa-times {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .nav-lists {
@@ -54,7 +54,7 @@
   position: relative;
 }
 .nav-list:hover {
-    transform: translateY(-2px);
+    transform: translateY(-1px);
   }
 .nav-list.active:hover {
     transform: translateY(0);
