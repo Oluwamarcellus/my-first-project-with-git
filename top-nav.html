@@ -4,20 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TopNav project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="top-nav.css">
 </head>
 <body>
     <div class="container">
         <nav class="head-container">
-            <div class="nav-logo"></div>
+            <div class="nav-logo">
+                <img src="/my-logo.svg" alt="">
+                <i class="fa-solid fa-bars"></i>
+            </div>
             <ul class="nav-lists">
-                <li class="nav-list">My projects</li>
-                <li class="nav-list">About</li>
+                <li class="nav-list active">About</li>
+                <li class="nav-list">My Projects</li>
                 <li class="nav-list">Contacts</li>
                 <li class="nav-list">More</li>
             </ul>
         </nav>
     </div>
-    
+    <script src="top-nav.js"></script>
 </body>
 </html>
