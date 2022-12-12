@@ -56,6 +56,9 @@
 .nav-list:hover {
     transform: translateY(-1px);
   }
+.nav-list:active {
+    color: rgb(207, 247, 237);
+  }
 .nav-list.active:hover {
     transform: translateY(0);
   }
